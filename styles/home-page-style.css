@@ -1,0 +1,370 @@
+:root {
+    --transparent-color: rgba(255, 255, 255, 0.2);
+}
+
+@keyframes fly {
+    from {
+        transform: translate(0px);
+    }
+    30% {
+        transform: translate(60vw, 20vh);
+    }
+    70% {
+        transform: translate(10vw, 50vh);
+    }
+    to {
+        transform: translate(0px);
+    }
+}
+
+@keyframes fly1 {
+    from {
+        transform: translate(0px);
+    }
+    30% {
+        transform: translate(10vw, 50vh);
+    }
+    70% {
+        transform: translate(38vw, 49vh);
+    }
+    to {
+        transform: translate(0px);
+    }
+}
+
+@keyframes fly2 {
+    from {
+        transform: translate(0px);
+    }
+    30% {
+        transform: translate(-60vw, -50vh);
+    }
+    70% {
+        transform: translate(-70vw, -20vh);
+    }
+    to {
+        transform: translate(0px);
+    }
+}
+
+@keyframes fly3 {
+    from {
+        transform: translate(0px);
+    }
+    30% {
+        transform: translate(-65vw, 20vh);
+    }
+    70% {
+        transform: translate(-10vw, 50vh);
+    }
+    to {
+        transform: translate(0px);
+    }
+}
+
+@keyframes fly4 {
+    from {
+        transform: translate(0px);
+    }
+    30% {
+        transform: translate(50vw, -10vh);
+
+    }
+    70% {
+        transform: translate(50vw, -60vh);
+
+    }
+    to {
+        transform: translate(0px);
+
+    }
+}
+
+.fly-block,
+.fly-block1,
+.fly-block2,
+.fly-block3,
+.fly-block4 {
+    height: 5vmax;
+    width: 5vmax;
+
+
+    background: var(--transparent-color);
+    border-radius: 0.5em;
+    backdrop-filter: blur(2px);
+    position: absolute;
+
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+
+    z-index: 10;
+}
+
+.fly-block {
+    left: 20vw;
+    top: 10vh;
+
+    animation-name: fly;
+}
+
+.fly-block1 {
+    right: 50vw;
+    top: 10vh;
+
+    animation-name: fly1;
+}
+
+.fly-block2 {
+    right: 20vw;
+    bottom: 20vh;
+
+    animation-name: fly2;
+}
+
+
+.fly-block3 {
+    right: 20vw;
+    top: 10vh;
+
+    animation-name: fly3;
+}
+
+.fly-block4 {
+    left: 30vw;
+    bottom: 20vh;
+
+    animation-name: fly4;
+}
+
+
+.main-info {
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+
+    /*background: rgba(255, 255, 255, 0.2);*/
+    background: black;
+    height: 75vh;
+    width: 100%;
+    position: relative;
+    /*backdrop-filter: blur(5px);*/
+    z-index: 0;
+}
+
+/*.main-info h1 .h1-light {*/
+/*    content: '';*/
+/*    border-radius: 1em;*/
+/**/
+/*    width: 100%;*/
+/*    position: absolute;*/
+/*    left: 0;*/
+/*    top: -0.7em;*/
+/**/
+/*    height: 3em;*/
+/*    background: #ffffff31;*/
+    /*background: linear-gradient(180deg, rgba(255,0,0,100%) 0%, rgba(255,165,0,100%) 100%);*/
+    /*transform: skewX(20deg) translateX(50px);*/
+    /*border: 2px;*/
+    /*filter: blur(30px);*/
+    /*box-shadow: 0px 0px 10px inset;*/
+    /*box-shadow: 0px 0px 20px;*/
+    /*z-index: 1;*/
+/**/
+/*}*/
+
+.main-info .h1-light {
+    color: white;
+    font-size: 5em;
+    /*background-color: #888888;*/
+    /*text-decoration: underline;*/
+    /*margin-left: 30px;*/
+    width: 100%;
+    margin-top: calc(50vh - 1em - 130px);
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    z-index: 2;
+    filter: blur(20px);
+}
+
+@media (max-width: 50em) {
+    .main-info .h1-light {
+        font-size: 3em;
+
+    }
+
+    .main-info .h1-light-text {
+        font-size: 3em;
+    }
+
+    .left-page-img {
+        min-height: 200px;
+        max-height: 200px;
+        height: 200px;
+
+        min-width: 285px;
+        width: 285px;
+        max-width: 285px;
+
+        /*width: 200px;*/
+    }
+
+    .right-page-img {
+        min-height: 200px;
+        max-height: 200px;
+        height: 200px;
+
+        min-width: 285px;
+        width: 285px;
+        max-width: 285px;
+
+        /*width: 200px;*/
+    }
+
+}
+
+@media (max-width: 25em) {
+    .main-info .h1-light {
+        font-size: 3em;
+        word-break: break-all;
+    }
+
+    .main-info .h1-light-text {
+        font-size: 3em;
+        word-break: break-all;
+    }
+}
+
+
+
+
+.main-info h1 {
+    /*visibility: hidden;*/
+    color: #ECEFF1;
+    font-size: 5em;
+    /*background-color: #888888;*/
+    /*text-decoration: underline;*/
+    /*margin-left: 30px;*/
+    width: 100%;
+    margin-top: calc(50vh - 1em - 130px);
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    z-index: 1;
+    /*filter: blur(2px);*/
+}
+
+.page-text-big,
+.page-text {
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+    align-content: center;
+    text-align: center;
+    font-weight: 500;
+    font-size: 28px;
+    padding-bottom: 20px;
+
+    margin: auto;
+
+
+    width: 70vw;
+
+    /*word-break: break-all;*/
+}
+
+.page-text-big{
+    font-weight: 600;
+}
+
+.home-ul li {
+    font-size: 1.5em;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.left-page-img {
+    height: 400px;
+    width: 570px;
+    /*margin-top: 20px;*/
+    margin-left: 38px;
+    float: left;
+
+    /*width: 200px;*/
+}
+
+.right-page-img {
+    height: 260px;
+    width: 550px;
+    /*margin-top: 20px;*/
+    margin-right: 38px;
+    float: right;
+
+
+    /*width: 200px;*/
+}
+
+.cover-link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+}
+
+.x_scrollable {
+    width: auto;
+    height: 150px;
+    /*margin-left: 1em;*/
+    /*margin-right: 1em;*/
+
+    background-color: black;
+    margin: auto;
+    overflow: auto;
+    overflow-x: visible;
+    white-space: nowrap;
+    text-align: center;
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*align-content: center;*/
+    /*text-align: center;*/
+    position: relative;
+    /*z-index: -1;*/
+}
+
+.x_scrollable::-webkit-scrollbar {
+    width: 0;
+}
+
+.icon {
+    height: 120px;
+    width: 100px;
+    background-color: black;
+    position: relative;
+    display: inline-block;
+    /*text-align: center;*/
+    /*margin: 0 auto;*/
+}
+
+.icon:hover > .icon-text {
+    color: dodgerblue;
+    transition: all 0.3s;
+}
+
+.icon .icon-image {
+    /*size: 10px;*/
+    height: 50px;
+    width: 50px;
+
+    margin: auto;
+    /*height: 20em;*/
+    /*width: 20em;*/
+    display: block;
+}
+
+.icon .icon-text {
+    color: white;
+    font-size: 1em;
+    text-align: center;
+}

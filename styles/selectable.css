@@ -1,0 +1,30 @@
+
+.selectable-image {
+    height: 300px;
+    width: 300px;
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.selectable-image-text {
+    visibility: hidden;
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    /*margin-top: -305px;*/
+
+    /*text-align: ;*/
+
+
+}
+
+
+.selectable-image:hover .selectable-image-text {
+    visibility: visible;
+    background: linear-gradient(180deg, rgba(189,236,182,60%) 0%, rgba(189,236,182,100%) 100%);
+    transform: translateY(-305px);
+    transition-duration: 0.5s;
+}
+
+

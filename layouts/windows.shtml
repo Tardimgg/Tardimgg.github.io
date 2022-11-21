@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Уникальная страница</title>
+    <link rel="icon" type="image/png" href="./goose.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/header-style.css">
+    <link rel="stylesheet" href="../styles/footer-style.css">
+    <link rel="stylesheet" href="../styles/home-page-style.css">
+    <link rel="stylesheet" href="../styles/card-style.css">
+    <link rel="stylesheet" href="../styles/publication.css">
+    <link rel="stylesheet" href="../styles/social-links.css">
+    <link rel="stylesheet" href="../styles/comments.css">
+    <link rel="stylesheet" href="../styles/like.css">
+
+    <script src="../scripts/like.js"></script>
+
+</head>
+<body style="height: 100%; display: flex; flex-direction: column">
+
+<!--#include virtual="header.html"-->
+
+<main style="flex: 1 0 auto; margin-top: 50px; background-color: #f0f0f0">
+
+    <div id="emEquivalent" style="height:1em;width:0;outline:none;border:none;padding:none;margin:none;box-sizing:content-box;"></div>
+
+    <section class="publication-view">
+
+        <article class="publication">
+
+            <div class="publisher">
+                <img color="red" class="animal-div" width="129" height="129" src="../resources/animal.png">
+                <a class="publisher-author">Знающий</a>
+
+                <time class="publisher-time">Вчера в 01:00</time>
+
+            </div>
+            <h2 class="normal-text" style="margin-bottom: 5px; margin-top: 0.5em">Windows</h2>
+            <div class="tags">
+                <a class="tag">История,&#160</a>
+                <a class="tag">Операционные системы,&#160</a>
+                <a class="tag">Windows</a>
+
+            </div>
+
+
+            <section style="padding-top: 20px;">
+                <h5>История Windows</h5><br>
+                В начале 80 годов прошлого века компания IBM работала над персональным компьютером на базе процессора Intel 8088. С середины 70 годов компания Microsoft была основным поставщиком Basic для восьмибитных микрокомпьютеров. Когда IBM обратилась к Microsoft для лицензирования Basic для их нового компьютера IBM PC, Microsoft согласилась, а также посоветовала обратиться к компании Digital Research для лицензирования операционной системы CP/M. Но, получилось так, что глава Digital Research не нашел в своем графике времени для встречи для IBM, и IBM снова обратилась к Microsoft, теперь уже с просьбой решить вопрос операционной системы для IBM PC. Microsoft купила клон ОС CP/M у компании Seattle Computer Products и перенесла её на IBM PC. Итоговым названием получившейся ОС стало MS-DOS 1.0.
+
+                <br><br>Первые продукты с названием «Windows» от Microsoft не были операционными системами. Это были графические среды для MS-DOS. На фоне успеха, в том числе и коммерческого, пользовательского интерфейса на Apple Lisa, компания решила реализовать графический интерфейс на IBM PC с MS-DOS. В отличии от относительно дешевых IBM PC, Apple Lisa стоили дорого (почти 10 тысяч долларов), и немногие покупатели могли позволить купить их. Microsoft решила занять нишу дешевых компьютеров с графическим интерфейсом. При этом низкая стоимость достигалась экономией на комплектующих и более низкая производительность, по сравнению с Lisa, избежать не получилось. Так, в 1985, 1987 и в 1990 выходят первые три версии Windows — 1.0, 2.0 и 3.0. Причем за первые шесть месяцев после релиза Windows 3.0 было продано более 1 миллиона экземпляров. Дальнейшее развитие Windows можно разделить на два направления — Windows на базе MS-DOS и Windows на базе NT.
+
+                <br><br><h5>Архитектура</h5><br>
+
+                Во многих многопользовательских операционных системах сама ОС отделяется от приложений. Код ядра ОС выполняется в привилегированном режиме процессора (режим ядра). Для него доступны системные данные и оборудование. В непривилегированном режиме (пользовательский режим) выполняется код приложений. Ему предоставляется ограниченный набор интерфейсов и ограниченный доступ к системным данным. Прямой доступ к оборудованию заблокирован. При вызове программой пользовательского режима системной функции процессор выполняет специальную команду, переключающую вызывающий поток (последовательность команд внутри процесса, планируемая Windows для исполнения) в режим ядра. Когда системная функция завершается, операционная система переключает контекст потока обратно в пользовательский режим и дает возможность вызывающей стороне продолжить работу.
+
+                <br><br>Windows считается операционной системой с гибридным ядром. С одной стороны компоненты ядра Windows располагаются в вытесняемой памяти и взаимодействуют друг с другом путем передачи сообщений, как в микроядерных системах. С другой стороны ядро слишком велико (более 1 Мбайт), а большая часть кода ОС и кода драйверов устройств использует одно защищенное пространство памяти защищенного режима, что свойственно монолитным ОС. Это означает, что в теории любой компонент ОС или драйвер устройства может повредить данные, используемые другими системными компонентами. В Windows эта проблема решается за счет повышения качества и контроля происхождения сторонних драйверов через такие программы, как WHQL или KMCS. Одновременно применяются дополнительные технологии защиты ядра, такие как безопасность на базе виртуализации, функции Device Guard.
+
+                <br><br><h5>Windows API</h5><br>
+
+                Windows API (Application Programming Interface) — это программный интерфейс пользовательского режима для Windows. До появления 64-разрядной версии операционной системы программный интерфейс 32-разрядных версий Windows назывался Win32 API в отличие от исходного 16-разрядного Windows API (программный интерфейс для исходных 16-разрядных версий Windows). На данный момент термин Windows API или Win32 API относят как к 32-разрядным, так и к 64-разрядным версиям.
+
+                <br><br>В «доисторические времена» Windows API состоял только из функций в стиле C. Выбор языка C был обусловлен тем, что написанный на нем код также мог использоваться из других языков. Он являлся достаточно низкоуровневым для предоставления сервиса ОС. Но огромное количество функций в сочетании с недостаточной последовательностью выбора имен и отсутствием логических группировок (вроде пространств имен C++) привели к тому, что в некоторых новых API используется другой механизм — модель COM.
+
+                <br><br>COM базируется на двух основных принципах. Во-первых, клиенты взаимодействуют с объектами (серверные объекты COM) через интерфейсы — четко определенные контракты с набором логически связанных методов, сгруппированных посредством механизма диспетчеризации по виртуальным таблицам. Такой же механизм, к слову, обычно применяется компиляторами C++ для реализации диспетчеризации виртуальных функций. Таким образом обеспечивается двоичная совместимость и снимаются проблемы с декорированием имен компилятором. Поэтому, такие методы могут вызываться из многих других языков и компиляторов, включая C, C++, VB, языки .NET, Delphi и т. д. Вторым принципом является динамическая загрузка компонентов (вместо статической компоновки с клиентом).
+            </section>
+
+
+            <article style="margin-top: 20px; background: white">
+                <a style="color: black">Соцсети автора:</a>
+
+
+                <div style="margin-top: 5px" class="flex-images">
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/facebook.png">
+                        </div>
+                    </div>
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/youtube.png">
+                        </div>
+                    </div>
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/telegram.png">
+                        </div>
+                    </div>
+
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/icq.png">
+                        </div>
+                    </div>
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/inst.png">
+                        </div>
+                    </div>
+
+                </div>
+
+            </article>
+
+            <div id="like1" onclick="clickLike1(document.getElementById('like1'))" class="publication-like">
+                <div class="like-img"><img width="30px" height="30px" src="../resources/like.svg"></div>
+                <h4 class="like-counter">2</h4>
+            </div>
+
+        </article>
+
+    </section>
+
+    <section class="comments">
+        <a style="font-weight: 500;">Комментарии</a>
+        <button class="comment-add">
+            <img height="38" width="38" src="../resources/plus.svg"/>
+        </button>
+
+
+        <article style="margin-top: 2em" class="comment">
+
+            <div class="publisher">
+                <img color="blue" class="animal-div" width="129" height="129" src="../resources/animal3.png">
+                <a class="publisher-author">Комментатор</a>
+
+                <time class="publisher-time">Сегодня в 12:00</time>
+            </div>
+            <h2 class="comment-text normal-text" style="margin-bottom: 5px">Мало</h2>
+
+        </article>
+
+        <article style="margin-top: 2em" class="comment">
+
+            <div class="publisher">
+                <img class="animal-div" width="129" height="129" src="../resources/animal.png">
+                <a class="publisher-author">Случайный посетитель</a>
+
+                <time class="publisher-time">Вчера в 13:00</time>
+            </div>
+            <h2 class="comment-text normal-text" style="margin-bottom: 5px">Слишком многа букав</h2>
+
+        </article>
+
+        <article style="margin-top: 2em" class="comment">
+
+            <div class="publisher">
+                <img color="orange" class="animal-div" width="129" height="129" src="../resources/animal2.png">
+                <a class="publisher-author">Эксперт</a>
+
+                <time class="publisher-time">Вчера в 8:00</time>
+            </div>
+            <h2 class="comment-text normal-text" style="margin-bottom: 5px">Не осилил</h2>
+
+        </article>
+
+
+    </section>
+
+
+</main>
+
+<script src="../scripts/add-popular-articles.js"></script>
+<script src="../scripts/comments.js"></script>
+
+
+<div style="  flex: 0 0 auto;">
+    <!--#include virtual="footer.html"-->
+</div>
+
+</body>
+</html>

@@ -1,0 +1,117 @@
+.comments {
+    /*width: 100vw;*/
+    /*min-width: 80vw;*/
+
+    max-width: 80vw;
+    padding: 20px;
+    /*margin-bottom: 1em;*/
+    /*margin-left: 35px;*/
+    /*margin-right: 35px;*/
+    position: relative;
+
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+    background-color: white;
+    margin: 1.5em auto 1em auto;
+}
+
+.comment-add {
+    outline: none;
+    outline: 0 !important;
+    border: 0;
+    background: transparent;
+    /*background-image: url("../resources/plus.svg");*/
+    position: absolute;
+    left: 8em;
+    top: 0.8em;
+    /*top: 0em;*/
+
+    /*height: 100px;*/
+    /*width: 100px;*/
+    /*scale: 0.3;*/
+}
+.comment-add:active {
+    text-decoration: none;
+    outline: none; /* Для синий ободки */
+    border: 0;
+    background: transparent;
+}
+
+
+.new-comment {
+    margin-top: 2em;
+    position: relative;
+}
+
+
+.new-comment::before {
+    content: '';
+    background-color: #aaaaaa;
+
+    height: 0.1em;
+    width: 260px;
+    position: absolute;
+    top: -20px;
+}
+
+.new-comment .new-comment-name {
+    display: block;
+    position: relative;
+
+    margin-top: 0.8em;
+    font-size: 1em;
+    font-weight: 200;
+    margin-left: 0.5em;
+    margin-bottom: 1em;
+}
+
+
+.new-comment .comment-text {
+    display: block;
+
+    width: 70vw;
+    height: 5em;
+    margin-top: 0.8em;
+    font-size: 1em;
+    font-weight: 200;
+    margin-left: 0.5em;
+}
+
+
+
+
+
+
+
+.comment {
+    position: relative;
+}
+
+@media  not (max-width: 65em) {
+    .comments {
+        max-width: 90vw;
+        /*margin-left: 4vw;*/
+        /*margin-right: calc(300px);*/
+    }
+
+
+}
+
+
+.comment::before {
+    content: '';
+    background-color: #aaaaaa;
+
+    height: 0.1em;
+    width: 260px;
+    position: absolute;
+    top: -20px;
+}
+
+.comment .comment-text {
+    margin-top: 0.8em;
+    font-size: 1em;
+    font-weight: 200;
+    margin-left: 0.5em;
+}
+

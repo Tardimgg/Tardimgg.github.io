@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Уникальная страница</title>
+    <link rel="icon" type="image/png" href="./goose.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/header-style.css">
+    <link rel="stylesheet" href="../styles/footer-style.css">
+    <link rel="stylesheet" href="../styles/home-page-style.css">
+    <link rel="stylesheet" href="../styles/card-style.css">
+    <link rel="stylesheet" href="../styles/publication.css">
+    <link rel="stylesheet" href="../styles/social-links.css">
+    <link rel="stylesheet" href="../styles/comments.css">
+    <link rel="stylesheet" href="../styles/like.css">
+
+    <script src="../scripts/like.js"></script>
+
+</head>
+<body style="height: 100%; display: flex; flex-direction: column">
+
+<!--#include virtual="header.html"-->
+
+<main style="flex: 1 0 auto; margin-top: 50px; background-color: #f0f0f0">
+    <div id="emEquivalent" style="height:1em;width:0;outline:none;border:none;padding:none;margin:none;box-sizing:content-box;"></div>
+
+    <section class="publication-view">
+
+        <article class="publication">
+
+            <div class="publisher">
+                <img color="red" class="animal-div" width="129" height="129" src="../resources/animal1.png">
+                <a class="publisher-author">Прилежный ученик</a>
+
+                <time class="publisher-time">Вчера в 18:00</time>
+
+            </div>
+            <h2 class="normal-text" style="margin-bottom: 5px; margin-top: 0.5em">BSD</h2>
+            <div class="tags">
+                <a class="tag">История,&#160</a>
+                <a class="tag">Операционные системы,&#160</a>
+                <a class="tag">BSD</a>
+
+            </div>
+
+
+            <section style="padding-top: 20px;">
+                <h5>История</h5><br>
+
+                На настоящий момент существует четыре
+                основных варианта BSD. Три из них бесплатны (FreeBSD,
+                OpenBSD и NetBSD), четвертая (Mac OS X) продается
+                исключительно за деньги, да и признать в ней
+                BSD довольно затруднительно. Посмотрим как
+                возникали эти операционные системы, а затем
+                перейдем к каждой конкретно.
+
+                <br><br>Сегодняшние ОСи являются наследниками
+                оригинально системы Unix, разработанной в
+                калифорнийском университете, ведь BSD
+                расшифровывается как Berkeley Software Distribution.
+                Большая часть кода BSD была основана на AT&T
+                Unix, который был не бесплатен, однако
+                усилиями разработчиков удалось получить
+                лицензию на него и выпустить бесплатно. В 1993
+                году 386BSD разделили на две версии, которые
+                известны и сегодня - NetBSD и FreeBSD. Создавались
+                они с разными целями и не удивительно, что у
+                каждой ОСи сформировалась своя история.
+                OpenBSD, третий вариант, появилась в 1996 и стала
+                ответом на нерешенные в первых двух
+                системах проблемы. Ну а система BSD,
+                используемая в Mac OS X известна под именем Darwin,
+                ею занимается компания NeXT, которую основал
+                Стив Джобс после ухода из Apple в 80-ых.
+                Технически, Mac OS X основана на ядре FreeBSD, OS X 10.3
+                это FreeBSD 5.x., ключевое отличие - Aqua GUI, который
+                позволяет получит настоящий Мас на
+                операционной системе, которая по гибкости и
+                эффективности остается BSD.
+
+                <br><br><h5>Общие особенности</h5><br>
+
+                Подобно всем Unix-овым наследника, ОСи BSD
+                содержат следующие ключевые компоненты:
+
+                <ul>
+                    <li>Ядро</li>
+                    <li>Система безопасности</li>
+                    <li>Шелл</li>
+                    <li>Поддержку сети</li>
+                    <li>Базовые утилиты</li>
+                </ul>
+
+                Стоит отметить, что и большинство
+                существующих open-source программ типа Perl, Python,
+                Apache, MySQL, PostGreSQL, Java, C/C++ без особых проблем
+                работают на BSD. Однако, так как они менее
+                распространены нежели Linux, для них существует
+                меньшее количество готовых программ.
+
+                <br><br><h5>FreeBSD</h5><br>
+
+                Пожалуй, FreeBSD одна из самых
+                распространенных систем этого класса и
+                самая старая. Основная платформа х86,
+                поддерживаются существующие процессоры AMD
+                и Intel, включая 64-разрядные, так же ОС может
+                работать на SPARC платформе. Основная идея
+                FreeBSD - быстродействие и стабильность работы,
+                например Yahoo и ряд других сетевых компаний
+                использую именно FreeBSD в качестве
+                операционной системы. FreeBSD держит
+                неофициальный рекорд по передаче данных,
+                около 2 Террабайт данных в секунда.
+                Разработчики FreeBSD приложили массу усилий на
+                то, что бы упростить использование системы,
+                и посему операционка получила один из самых
+                простых установщиков во всех Unix сообществе.
+                И даже после установки простота не
+                кончается - загрузка, компилирование,
+                установка новых компонент не слишком
+                сложное занятие, Ports Collection загружает
+                необходимые файлы, проверяет их
+                целостность, билдит приложения и
+                инсталлирует их в систему.
+
+            </section>
+
+
+            <article style="margin-top: 20px; background: white">
+                <a style="color: black">Соцсети автора:</a>
+
+
+                <div style="margin-top: 5px" class="flex-images">
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/facebook.png">
+                        </div>
+                    </div>
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/youtube.png">
+                        </div>
+                    </div>
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/telegram.png">
+                        </div>
+                    </div>
+
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/icq.png">
+                        </div>
+                    </div>
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/inst.png">
+                        </div>
+                    </div>
+
+                </div>
+
+            </article>
+
+            <div id="like1" onclick="clickLike1(document.getElementById('like1'))" class="publication-like">
+                <div class="like-img"><img width="30px" height="30px" src="../resources/like.svg"></div>
+                <h4 class="like-counter">2</h4>
+            </div>
+
+        </article>
+
+
+    </section>
+
+    <section class="comments">
+        <a style="font-weight: 500;">Комментарии</a>
+        <button class="comment-add">
+            <img height="38" width="38" src="../resources/plus.svg"/>
+        </button>
+
+
+        <article style="margin-top: 2em" class="comment">
+
+            <div class="publisher">
+                <img class="animal-div" width="129" height="129" src="../resources/animal3.png">
+                <a class="publisher-author">Владелец bsd</a>
+
+                <time class="publisher-time">Сегодня в 12:00</time>
+            </div>
+            <h2 class="comment-text normal-text" style="margin-bottom: 5px">Куплю винду</h2>
+
+        </article>
+
+        <article style="margin-top: 2em" class="comment">
+
+            <div class="publisher">
+                <img color="orange" class="animal-div" width="129" height="129" src="../resources/animal.png">
+                <a class="publisher-author">no name</a>
+
+                <time class="publisher-time">Сегодня в 13:00</time>
+            </div>
+            <h2 class="comment-text normal-text" style="margin-bottom: 5px">Куплю мак</h2>
+
+        </article>
+
+        <article style="margin-top: 2em" class="comment">
+
+            <div class="publisher">
+                <img color="red" class="animal-div" width="129" height="129" src="../resources/animal2.png">
+                <a class="publisher-author">Молодец</a>
+
+                <time class="publisher-time">Вчера в 20:00</time>
+            </div>
+            <h2 class="comment-text normal-text" style="margin-bottom: 5px">А что значит BSOD?</h2>
+
+        </article>
+
+
+    </section>
+
+
+</main>
+
+<script src="../scripts/add-popular-articles.js"></script>
+<script src="../scripts/comments.js"></script>
+
+
+<div style="  flex: 0 0 auto;">
+    <!--#include virtual="footer.html"-->
+</div>
+
+</body>
+</html>

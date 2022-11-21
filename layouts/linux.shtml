@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Уникальная страница</title>
+    <link rel="icon" type="image/png" href="./goose.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/header-style.css">
+    <link rel="stylesheet" href="../styles/footer-style.css">
+    <link rel="stylesheet" href="../styles/home-page-style.css">
+    <link rel="stylesheet" href="../styles/card-style.css">
+    <link rel="stylesheet" href="../styles/publication.css">
+    <link rel="stylesheet" href="../styles/social-links.css">
+    <link rel="stylesheet" href="../styles/comments.css">
+    <link rel="stylesheet" href="../styles/like.css">
+
+    <script src="../scripts/like.js"></script>
+
+</head>
+<body style="height: 100%; display: flex; flex-direction: column">
+
+<!--#include virtual="header.html"-->
+
+<main style="flex: 1 0 auto; margin-top: 50px; background-color: #f0f0f0">
+
+    <div id="emEquivalent" style="height:1em;width:0;outline:none;border:none;padding:none;margin:none;box-sizing:content-box;"></div>
+
+    <section class="publication-view">
+
+        <article class="publication">
+
+            <div class="publisher">
+                <img color="orange" class="animal-div" width="129" height="129" src="../resources/animal.png">
+                <a class="publisher-author">Знакок 10 лвл</a>
+
+                <time class="publisher-time">Вчера в 18:00</time>
+
+            </div>
+            <h2 class="normal-text" style="margin-bottom: 5px; margin-top: 0.5em">Linux</h2>
+            <div class="tags">
+                <a class="tag">История,&#160</a>
+                <a class="tag">Операционные системы,&#160</a>
+                <a class="tag">Linux</a>
+
+            </div>
+
+
+            <section style="padding-top: 20px;">
+                <h5>Введение</h5><br>
+                Linux — это семейство операционных систем (ОС), работающих на основе одноименного ядра. Нет одной операционной системы Linux, как, например, Windows или MacOS. Есть множество дистрибутивов (набор файлов, необходимых для установки ПО), выполняющих конкретные задачи.
+
+                <br><br><h5>Кратчайшая история создания Linux</h5><br>
+
+                Линус Торвальдс — первый разработчик и создатель Linux. Именно в честь него и была названа ОС. В 1991 году Линус начал работу над собственной ОС семейства Unix. Через три года появилась первая версия, доступная для скачивания. Но тогда она имела очень низкий спрос — ей пользовались буквально несколько человек.
+
+                <br><br>Только через 10 лет ОС Linux получила широкое распространение. Сообщество программистов подхватило идею свободного ПО, специалисты стали помогать развивать проект.
+
+                <br><br><h5>Ядро</h5><br>
+
+                Что это такое, как работает и зачем нужно? Это так называемая главная программа, основная часть ОС. Ядро выступает в качестве посредника между устройствами ПК (видеокартой, процессором, оперативной памятью и пр.) и его ПО. Для этого в коде есть драйверы устройств. Они загружаются в память или подключаются по мере необходимости ресурса определенного устройства. Ядра управляют устройствами, процессами и памятью, обрабатывают системные вызовы.
+
+                <br><br>На компьютере могут быть запущены сразу несколько программ. Первые работают в фоновом режиме, вторые ожидают определенных действий от пользователя, третьи получают информацию из других запущенных программ. Именно ядро распределяет ресурсы компьютера между всеми программами и организует параллельную работу множества разных процессов.
+
+                <br><br>Ядро Linux — монолитное, при этом оно заимствует некоторые идеи из микроядерной архитектуры. Это означает, что вся ОС функционирует в пространстве ядра, а драйвера устройств могут легко загружаться (или выгружаться) непосредственно при работе операционной системы.
+            </section>
+
+
+            <article style="margin-top: 20px; background: white">
+                <a style="color: black">Соцсети автора:</a>
+
+
+                <div style="margin-top: 5px" class="flex-images">
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/facebook.png">
+                        </div>
+                    </div>
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/youtube.png">
+                        </div>
+                    </div>
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/telegram.png">
+                        </div>
+                    </div>
+
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/icq.png">
+                        </div>
+                    </div>
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/inst.png">
+                        </div>
+                    </div>
+
+                </div>
+
+            </article>
+
+            <div id="like1" onclick="clickLike1(document.getElementById('like1'))" class="publication-like">
+                <div class="like-img"><img width="30px" height="30px" src="../resources/like.svg"></div>
+                <h4 class="like-counter">2</h4>
+            </div>
+
+        </article>
+
+    </section>
+
+    <section class="comments">
+        <a style="font-weight: 500;">Комментарии</a>
+        <button class="comment-add">
+            <img height="38" width="38" src="../resources/plus.svg"/>
+        </button>
+
+
+        <article style="margin-top: 2em" class="comment">
+
+            <div class="publisher">
+                <img class="animal-div" width="129" height="129" src="../resources/animal.png">
+                <a class="publisher-author">Случайный посетитель</a>
+
+                <time class="publisher-time">Сегодня в 18:00</time>
+            </div>
+            <h2 class="comment-text normal-text" style="margin-bottom: 5px">Интересненько</h2>
+
+        </article>
+
+        <article style="margin-top: 2em" class="comment">
+
+            <div class="publisher">
+                <img color="blue" class="animal-div" width="129" height="129" src="../resources/animal3.png">
+                <a class="publisher-author">Шпион</a>
+
+                <time class="publisher-time">Сегодня в 13:00</time>
+            </div>
+            <h2 class="comment-text normal-text" style="margin-bottom: 5px">Лайк</h2>
+
+        </article>
+
+        <article style="margin-top: 2em" class="comment">
+
+            <div class="publisher">
+                <img color="red" class="animal-div" width="129" height="129" src="../resources/animal2.png">
+                <a class="publisher-author">Подписчик</a>
+
+                <time class="publisher-time">Вчера в 8:00</time>
+            </div>
+            <h2 class="comment-text normal-text" style="margin-bottom: 5px">Лайк</h2>
+
+        </article>
+
+
+    </section>
+
+
+</main>
+
+<script src="../scripts/add-popular-articles.js"></script>
+<script src="../scripts/comments.js"></script>
+
+
+<div style="  flex: 0 0 auto;">
+    <!--#include virtual="footer.html"-->
+</div>
+
+</body>
+</html>

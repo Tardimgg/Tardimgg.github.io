@@ -1,0 +1,81 @@
+.captcha {
+
+    background-color: white;
+    border-radius: 1em;
+
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+
+
+    height: 15em;
+    width: 23em;
+}
+
+.captcha::before {
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+    border-radius: 1em;
+
+    content: 'Капча';
+    font-size: 1.5em;
+    font-weight: 300;
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+
+    background-color: white;
+    height: 1.5em;
+    /*width: 300px;*/
+}
+
+.captcha .captcha-text {
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+    margin-top: 1.3em;
+    /*position: absolute;*/
+
+    /*top: 2.5em;*/
+
+    user-select: none;
+
+    font-size: 2em;
+    background-color: white;
+    /*width: 200px;*/
+    text-align: center;
+    /*margin-top: 30px;*/
+    margin-left: 45px;
+    margin-right: 45px;
+    word-break: break-all;
+
+}
+
+.captcha .captcha-input{
+    background-color: white;
+    width: 15em;
+
+    position: absolute;
+    top: 6em;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+.captcha .captcha-btn {
+    position: absolute;
+    top: 10em;
+    left: 0;
+    right: 0;
+    width: 10em;
+    margin: auto;
+
+}

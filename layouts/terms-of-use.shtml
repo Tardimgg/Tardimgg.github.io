@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Контакты</title>
+    <link rel="icon" type="image/png" href="./goose.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/header-style.css">
+    <link rel="stylesheet" href="../styles/footer-style.css">
+    <link rel="stylesheet" href="../styles/home-page-style.css">
+    <link rel="stylesheet" href="../styles/card-style.css">
+    <link rel="stylesheet" href="../styles/publication.css">
+    <link rel="stylesheet" href="../styles/social-links.css">
+    <link rel="stylesheet" href="../styles/comments.css">
+
+</head>
+<body style="height: 100%; display: flex; flex-direction: column">
+
+<!--#include virtual="header.html"-->
+
+<main style="flex: 1 0 auto; margin-top: 50px; background-color: #f0f0f0">
+
+    <div id="emEquivalent" style="height:1em;width:0;outline:none;border:none;padding:none;margin:none;box-sizing:content-box;"></div>
+
+    <section class="publication-view">
+
+        <article class="publication">
+
+            <div class="publisher">
+                <img class="animal-div" width="129" height="129" src="../resources/animal1.png">
+                <a class="publisher-author">Author</a>
+
+                <time class="publisher-time">Год назад</time>
+
+            </div>
+            <h2 class="normal-text" style="margin-bottom: 5px; margin-top: 0.5em">Правила пользования сайтом</h2>
+            <div class="tags">
+                <a class="tag">Справка</a>
+
+            </div>
+
+
+            <section style="padding-top: 20px;">
+                Сайт можно использовать почти (｡◕‿◕｡) как угодно.<br>
+
+            </section>
+
+
+            <article style="margin-top: 20px; background: white">
+                <a style="color: black">Соцсети сайта:</a>
+
+
+                <div style="margin-top: 5px" class="flex-images">
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/facebook.png">
+                        </div>
+                    </div>
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/youtube.png">
+                        </div>
+                    </div>
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/telegram.png">
+                        </div>
+                    </div>
+
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/icq.png">
+                        </div>
+                    </div>
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/inst.png">
+                        </div>
+                    </div>
+
+                </div>
+
+            </article>
+
+        </article>
+
+    </section>
+
+    <section class="comments">
+        <a style="font-weight: 500;">Комментарии</a>
+        <button class="comment-add">
+            <img height="38" width="38" src="../resources/plus.svg"/>
+        </button>
+
+
+        <article style="margin-top: 2em" class="comment">
+
+            <div class="publisher">
+                <img class="animal-div" width="129" height="129" src="../resources/animal.png">
+                <a class="publisher-author">Твой единственный подписчик</a>
+
+                <time class="publisher-time">Год назад</time>
+            </div>
+            <h2 class="comment-text normal-text" style="margin-bottom: 5px">Спасибо за важнейшую информацию!!</h2>
+
+        </article>
+
+    </section>
+
+
+</main>
+
+<script src="../scripts/add-popular-articles.js"></script>
+<script src="../scripts/comments.js"></script>
+
+
+<div style="  flex: 0 0 auto;">
+    <!--#include virtual="footer.html"-->
+</div>
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Уникальная страница</title>
+    <link rel="icon" type="image/png" href="./goose.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/header-style.css">
+    <link rel="stylesheet" href="../styles/footer-style.css">
+    <link rel="stylesheet" href="../styles/home-page-style.css">
+    <link rel="stylesheet" href="../styles/card-style.css">
+    <link rel="stylesheet" href="../styles/publication.css">
+    <link rel="stylesheet" href="../styles/social-links.css">
+    <link rel="stylesheet" href="../styles/comments.css">
+    <link rel="stylesheet" href="../styles/like.css">
+
+    <script src="../scripts/like.js"></script>
+
+</head>
+<body style="height: 100%; display: flex; flex-direction: column">
+
+<!--#include virtual="header.html"-->
+
+<main style="flex: 1 0 auto; margin-top: 50px; background-color: #f0f0f0">
+    <div id="emEquivalent" style="height:1em;width:0;outline:none;border:none;padding:none;margin:none;box-sizing:content-box;"></div>
+
+    <section class="publication-view">
+
+        <article class="publication">
+
+            <div class="publisher">
+                <img color="blue" class="animal-div" width="129" height="129" src="../resources/animal.png">
+                <a class="publisher-author">Местный эксперт</a>
+
+                <time class="publisher-time">Вчера в 10:00</time>
+
+            </div>
+            <h2 class="normal-text" style="margin-bottom: 5px; margin-top: 0.5em">MacOS</h2>
+            <div class="tags">
+                <a class="tag">История,&#160</a>
+                <a class="tag">Операционные системы,&#160</a>
+                <a class="tag">MacOS</a>
+
+            </div>
+
+
+            <section style="padding-top: 20px;">
+                <h5>Краткая история macOS</h5><br>
+                История macOS, как и в целом история Apple, увлекательна и полна захватывающих перипетий. Здесь я перескажу ее в очень сокращенном и упрощенном виде.
+
+                <br><br>Все началось в далекие восьмидесятые годы с компьютеров Apple II. Операционной системы в современном понимании этого слова у них, по сути, не было: сейчас их ОС мы бы назвали прошивкой. Как и в случае с другими домашними компьютерами той эпохи, в нее входил интерпретатор BASIC, служивший для выполнения пользовательских команд.
+
+                <br><br>Компьютер Apple Macintosh, вышедший на рынок в 1984 году, разительно отличался от этих машин. Его операционная система сразу включала в себя графический пользовательский интерфейс с поддержкой мыши. Оконный интерфейс по тем временам считался удивительной новинкой — до этого его не было ни у одного серийно производимого компьютера (Windows 1.0 появился через два года после Macintosh и многое у него позаимствовал).
+
+                <br><br>Классическая Mac OS активно развивалась до 1996 года, а последний ее релиз вышел в 2001 году. И если для конца восьмидесятых она считалась передовой, то в девяностые ее архитектура с устаревшей моделью разделения памяти постепенно стала преградой для развития Apple. В качестве экстренной меры руководство компании решило приобрести стартап NeXT, основанный ранее вытесненным из Apple Стивом Джобсом.
+
+                <br><br><h5>Ядро XNU</h5><br>
+
+                В основе macOS, как и в основе любой другой ОС, лежит ядро. Оно отвечает за выделение процессорного времени, управление оперативной памятью и кешем, взаимодействием с устройствами и сетью. В то же время оно обрабатывает системные вызовы приложений и обеспечивает взаимодействие процессов.
+
+                <br><br>Современная macOS работает на ядре XNU, которое пришло из NeXTSTEP. За основу его кода в свое время был взят проект Match — ответвление от ядра FreeBSD.
+
+                <br><br>XNU означает X is Not Unix, «X — не Unix». Эта расшифровка — давно утерявший актуальность программистский юмор: macOS все же по большому счету считается одной из разновидностей Unix. Однако XNU не имеет бинарной совместимости с FreeBSD, то есть программы для FreeBSD в macOS нельзя запустить без изменений и перекомпиляции.
+
+                <br><br>Ядро XNU — гибридное. Это значит, что в отличие от микроядер оно может быть дополнено расширениями, но при этом не является монолитным, как ядро Linux, где все функции собраны в один гигантский бинарный файл.
+
+                <br><br>До macOS 10.15 основным способом расширения ядра были модули kext. Поскольку «кексты» работают в пространстве ядра, сбои в них могут приводить к нестабильной работе компьютера. К тому же они открывали большие возможности для недобросовестных разработчиков.
+
+                <br><br>Сейчас «кексты» считаются устаревшим методом, и со временем он будет отключен. Вместо этого в Apple предлагают разработчикам использовать фреймворки DriverKit и SystemExtension, которые позволяют создавать драйверы и расширения, работающие в пространстве пользователя.
+
+
+            </section>
+
+
+            <article style="margin-top: 20px; background: white">
+                <a style="color: black">Соцсети автора:</a>
+
+
+                <div style="margin-top: 5px" class="flex-images">
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/facebook.png">
+                        </div>
+                    </div>
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/youtube.png">
+                        </div>
+                    </div>
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/telegram.png">
+                        </div>
+                    </div>
+
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/icq.png">
+                        </div>
+                    </div>
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/inst.png">
+                        </div>
+                    </div>
+
+                </div>
+
+            </article>
+
+            <div id="like1" onclick="clickLike1(document.getElementById('like1'))" class="publication-like">
+                <div class="like-img"><img width="30px" height="30px" src="../resources/like.svg"></div>
+                <h4 class="like-counter">2</h4>
+            </div>
+
+        </article>
+
+    </section>
+
+    <section class="comments">
+        <a style="font-weight: 500;">Комментарии</a>
+        <button class="comment-add">
+            <img height="38" width="38" src="../resources/plus.svg"/>
+        </button>
+
+        <article style="margin-top: 2em" class="comment">
+
+            <div class="publisher">
+                <img color="blue" class="animal-div" width="129" height="129" src="../resources/animal1.png">
+                <a class="publisher-author">Жизнерадостный чел</a>
+
+                <time class="publisher-time">Сегодня в 12:00</time>
+            </div>
+            <h2 class="comment-text normal-text" style="margin-bottom: 5px">Очень грустная статья</h2>
+
+        </article>
+
+        <article style="margin-top: 2em" class="comment">
+
+            <div class="publisher">
+                <img color="red" class="animal-div" width="129" height="129" src="../resources/animal3.png">
+                <a class="publisher-author">Человек</a>
+
+                <time class="publisher-time">Сегодня в 13:00</time>
+            </div>
+            <h2 class="comment-text normal-text" style="margin-bottom: 5px">Продам гараж +71234567890</h2>
+
+        </article>
+
+        <article style="margin-top: 2em" class="comment">
+
+            <div class="publisher">
+                <img color="orange" class="animal-div" width="129" height="129" src="../resources/animal2.png">
+                <a class="publisher-author">Робот</a>
+
+                <time class="publisher-time">Вчера в 13:00</time>
+            </div>
+            <h2 class="comment-text normal-text" style="margin-bottom: 5px">Куплю гараж</h2>
+
+        </article>
+
+
+    </section>
+
+
+</main>
+
+<script src="../scripts/add-popular-articles.js"></script>
+<script src="../scripts/comments.js"></script>
+
+
+<div style="  flex: 0 0 auto;">
+    <!--#include virtual="footer.html"-->
+</div>
+
+</body>
+</html>

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Уникальная страница</title>
+  <link rel="icon" type="image/png" href="./goose.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../styles/header-style.css">
+  <link rel="stylesheet" href="../styles/footer-style.css">
+  <link rel="stylesheet" href="../styles/home-page-style.css">
+  <link rel="stylesheet" href="../styles/card-style.css">
+  <link rel="stylesheet" href="../styles/publication.css">
+  <link rel="stylesheet" href="../styles/social-links.css">
+  <link rel="stylesheet" href="../styles/comments.css">
+  <link rel="stylesheet" href="../styles/like.css">
+
+  <script src="../scripts/like.js"></script>
+
+</head>
+<body style="height: 100%; display: flex; flex-direction: column">
+
+<!--#include virtual="header.html"-->
+
+<main style="flex: 1 0 auto; margin-top: 50px; background-color: #f0f0f0">
+
+  <div id="emEquivalent" style="height:1em;width:0;outline:none;border:none;padding:none;margin:none;box-sizing:content-box;"></div>
+
+  <section class="publication-view">
+
+    <article class="publication">
+
+      <div class="publisher">
+        <img class="animal-div" width="129" height="129" src="../resources/animal2.png">
+        <a class="publisher-author">Высший разум на ответах майл ру</a>
+
+        <time class="publisher-time">Позавчера в 22:00</time>
+
+      </div>
+      <h2 class="normal-text" style="margin-bottom: 5px; margin-top: 0.5em">Комьютерные операционные системы</h2>
+      <div class="tags">
+        <a class="tag">История,&#160</a>
+        <a class="tag">Операционные системы</a>
+
+      </div>
+
+
+      <section style="padding-top: 20px;">
+        <h5>Что такое операционная система?</h5>
+
+        Практически каждый человек, начинающий знакомиться с устройством компьютера-задаёт себе этот вопрос. Другие же, постоянно слышат это слово, но почему-то не задумываются о его значении. В нашем мире, есть определенный набор информации, которую должен знать каждый. И учитывая, как глубоко технологии вошли в жизнь современного человека, понимание того, что такое операционная система, является важной частью этого набора.
+
+        <br>И так, операционной системой, или сокращенно-ОС, называют совокупность программ, организующих взаимосвязь между пользователем и устройством, а также осуществляющих управление всеми аппаратными средствами компьютера. У каждой ОС есть своя фирменная оболочка. Она очень облегчает процесс управления устройством.
+
+        <br>И вместо скучных программных кодов, мы с вами видим красивые разноцветные иконки, кликнув на которые, можем заставить компьютер делать то, что нам хочется.
+
+       Виды компьютерных операционных систем.
+
+        <br>Из всех ОС, наиболее популярными являются 3 системы.
+        <br>
+        <br>
+        <h5>Windows</h5>
+
+        Разработчиком системы, является компания Microsoft.
+
+        <br>Windows 1.0 самая первая версия ОС, была создана в ноябре 1985 года, но из-за ряда неисправностей нуждалась в серьёзной доработке. Поэтому первой вышедшей версией стала Windows 1.0.1. После неё, было разработано большое количество обновлений и версий ОС. Вот наиболее известные из них:
+
+        <ul>
+          <li>Windows XP-2001 год</li>
+          <li>Windows Vista-2007 год</li>
+          <li>Windows 7-2009 год</li>
+          <li>Windows 8- 2012 год</li>
+          <li>Windows 10-2015 год</li>
+        </ul>
+
+        <br>Последняя, отличается приятным интерфейсом и массой новых возможностей. Так, например, для геймеров разработана внутренняя система стрима. Это позволяет вести прямые трансляции игр, не устанавливая при этом никаких дополнительных программ.
+
+        <br>Систему безопасности тоже коснулись некоторые нововведения. В последнее время, популярность набирает биометрическая система защиты устройства. И ещё бы! Ведь она избавляет от необходимости запоминать длинные и сложные пароли. Распознавание владельца происходит по отпечаткам пальцев, лицу или радужной оболочки глаза.
+
+        <br>Активация windows 10 также отличается от активации ранних версий, наличием цифровой лицензии, которая не требует ввода ключа продукта.
+
+        <br>Основным преимуществом операционной системы Windows - является её универсальность. Она доходит для всего. Начиная от работ с текстовыми документами, и заканчивая играми последнего поколения с наикрутейшей графикой. Чего нельзя сказать о следующей ОС
+        <br>
+        <br><h5>Linux</h5>
+        Операционная система названа в честь Линуса Торвальдса, который в 1991 разработал её первую версию.
+
+        Главной особенностью ОС, является открытый исходный код, благодаря которому, любой пользователь может преобразовывать систему или улучшать её качества.
+
+        Еще одним немаловажным преимуществом является то, что linux - бесплатная система. Некоторые организации очень хорошо экономят на этом, ведь поставить программное обеспечение на несколько десятков ПК стоит не дешево.
+        <br>
+        <br><h5>MacOS</h5>
+        Создателем ОС является знаменитая компания Apple. Качественная и надежная система.
+
+        <br>Ставится только на устройства Apple, которые имеют высокую рыночную цену по сравнению с другими производителями. А вообще Mac ОС можно загрузить на любой компьютер, скачав в интернете пиратскую версию. Правда-это незаконно, но чисто в теории сделать так можно.
+
+        <br>Самая свежая версия-это Mac OS X, которая вышла в 2014 году. Система имеет приятную фирменную оболочку, чем-то напоминающую linux, однако выглядит поинтересней.
+
+        <br>Обновлены некоторые функции, в том числе файловая система, которая теперь должна работать быстрее чем в предыдущих версиях ОС. Программа Siri теперь самостоятельно помогает вам выбирать музыку. (Для тех, кто не знает, Siri это голосовой помощник). Изменения так же коснулись стандартного браузера safari, который с каждым обновлением становился все лучше и лучше.
+
+        <br>Он способен само обучаться и запоминать ваши поисковые запросы, что позволяет выдавать наиболее точные результаты.
+
+        <br>Операционная система Mac по проценту на рынке ОС, уступает компании Microsoft почти в 10 раз. Связано это с высокой стоимостью продукции Apple, которую позволить себе может далеко не каждый.
+
+        <br><br><h5>BSD</h5> BSD — система распространения программного обеспечения в исходных кодах, созданная для обмена опытом между учебными заведениями. Особенностью пакетов ПО BSD была специальная лицензия BSD, которую кратко можно охарактеризовать так: весь исходный код — собственность BSD, все правки — собственность их авторов.
+
+        В данный момент термин BSD чаще всего употребляется как синоним BSD-UNIX — общего названия вариантов UNIX, восходящих к дистрибутивам университета Беркли.
+        Упрощённое генеалогическое дерево UNIX и его клонов
+
+        К семейству BSD относятся: NetBSD, FreeBSD, OpenBSD, ClosedBSD, MirBSD, DragonFly BSD, PC-BSD, GhostBSD, DesktopBSD, SunOS, TrueBSD, Frenzy, Ultrix и частично XNU (ядро macOS, IOS, tvOS, watchOS, CarPlay, Darwin)[3].
+
+        Отличия от «классической» системы UNIX заключены в системе печати, файловой системе, отсутствии переключения уровней выполнения и командной оболочке. Пользовательские команды практически идентичны.
+        <br><br>
+        Самой популярной версий операционных систем на сегодняшний день является Windows, в большей степени из-за своей цены. Устройства, работающие на платформе Mac OS стоят намного дороже, но обладают высоким качеством продукции и рядом уникальных технических возможностей, недоступных для пользователей Windows. А операционная система linux, больше похожа на первоначальные версии двух вышеперечисленных моделей и поэтому во многом уступает им. Но если компьютер нужен вам, исключительно для офисных работ, то можно сэкономить немного денег. Купить ПК без операционной системы и установить на него ОС linux.
+      </section>
+
+      <section style="margin-top: 0; padding-top: 2em; background: white; margin-bottom: 20px">
+
+        <h2 class="page-text-big" style="color: black; text-align: left">Подробнее:</h2>
+
+
+        <div class="flex-images">
+
+          <div class="card" style="width: 18rem; border-width: 2px; box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);">
+            <a class="cover-link" href="windows.shtml"></a>
+            <img src="../resources/windows-desktop.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Windows</h5>
+              <p class="card-text">Windows — группа семейств коммерческих проприетарных операционных систем корпорации Microsoft</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem; border-width: 2px; box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);">
+            <a class="cover-link" href="linux.shtml"></a>
+            <img src="../resources/penguin_igf.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Linux</h5>
+              <p class="card-text">Linux — семейство Unix-подобных операционных систем на базе ядра Linux, включающих тот или иной набор утилит и программ проекта GNU, и, возможно, другие компоненты.</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem; border-width: 2px; box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);">
+            <a class="cover-link" href="macos.shtml"></a>
+            <img src="../resources/macos.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MacOS</h5>
+              <p class="card-text">macOS — проприетарная операционная система компании Apple. Является преемницей Mac OS 9. Семейство операционных систем macOS является вторым по распространённости для десктопа.</p>
+            </div>
+          </div>
+
+          <div class="card" style="width: 18rem; border-width: 2px; box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);">
+            <a class="cover-link" href="bsd.shtml"></a>
+            <img src="../resources/bsd.gif" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">BSD</h5>
+              <p class="card-text">BSD — система распространения программного обеспечения в исходных кодах, созданная для обмена опытом между учебными заведениями. Особенностью пакетов ПО BSD была специальная лицензия BSD.</p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
+      <article style="margin-top: 20px; background: white">
+        <a style="color: black">Соцсети автора:</a>
+
+
+        <div style="margin-top: 5px" class="flex-images">
+
+          <div class="small-btn">
+            <div class="small-btn-img">
+              <img width="40px" height="40px" src="../resources/facebook.png">
+            </div>
+          </div>
+
+          <div class="small-btn">
+            <div class="small-btn-img">
+              <img width="40px" height="40px" src="../resources/youtube.png">
+            </div>
+          </div>
+          <div class="small-btn">
+            <div class="small-btn-img">
+              <img width="40px" height="40px" src="../resources/telegram.png">
+            </div>
+          </div>
+
+
+          <div class="small-btn">
+            <div class="small-btn-img">
+              <img width="40px" height="40px" src="../resources/icq.png">
+            </div>
+          </div>
+
+          <div class="small-btn">
+            <div class="small-btn-img">
+              <img width="40px" height="40px" src="../resources/inst.png">
+            </div>
+          </div>
+
+        </div>
+
+      </article>
+
+      <div id="like1" onclick="clickLike1(document.getElementById('like1'))" class="publication-like">
+        <div class="like-img"><img width="30px" height="30px" src="../resources/like.svg"></div>
+        <h4 class="like-counter">2</h4>
+      </div>
+
+    </article>
+
+  </section>
+
+  <section class="comments">
+    <a style="font-weight: 500;">Комментарии</a>
+    <button class="comment-add">
+      <img height="38" width="38" src="../resources/plus.svg"/>
+    </button>
+
+
+    <article style="margin-top: 2em" class="comment">
+
+      <div class="publisher">
+        <img class="animal-div" width="129" height="129" src="../resources/animal2.png">
+        <a class="publisher-author">Ищу приключения</a>
+
+        <time class="publisher-time">Сегодня в 06:00</time>
+      </div>
+      <h2 class="comment-text normal-text" style="margin-bottom: 5px">Посоветуйте пожалуйста, какой дистрибутив поставить?</h2>
+
+    </article>
+
+    <article style="margin-top: 2em" class="comment">
+
+      <div class="publisher">
+        <img color="orange" class="animal-div" width="129" height="129" src="../resources/animal.png">
+        <a class="publisher-author">Непостоянный</a>
+
+        <time class="publisher-time">Сегодня в 13:00</time>
+      </div>
+      <h2 class="comment-text normal-text" style="margin-bottom: 5px">Что поставить арч или генту?</h2>
+
+    </article>
+
+    <article style="margin-top: 2em" class="comment">
+
+      <div class="publisher">
+        <img color="red" class="animal-div" width="129" height="129" src="../resources/animal1.png">
+        <a class="publisher-author">Приколист 10 ранга</a>
+
+        <time class="publisher-time">Вчера в 8:00</time>
+      </div>
+      <h2 class="comment-text normal-text" style="margin-bottom: 5px">Спасибо за материал</h2>
+
+    </article>
+
+
+  </section>
+
+
+</main>
+
+<script src="../scripts/add-popular-articles.js"></script>
+<script src="../scripts/comments.js"></script>
+
+
+<div style="  flex: 0 0 auto;">
+  <!--#include virtual="footer.html"-->
+</div>
+
+</body>
+</html>

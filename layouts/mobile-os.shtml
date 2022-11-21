@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Уникальная страница</title>
+    <link rel="icon" type="image/png" href="./goose.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/header-style.css">
+    <link rel="stylesheet" href="../styles/footer-style.css">
+    <link rel="stylesheet" href="../styles/home-page-style.css">
+    <link rel="stylesheet" href="../styles/card-style.css">
+    <link rel="stylesheet" href="../styles/publication.css">
+    <link rel="stylesheet" href="../styles/social-links.css">
+    <link rel="stylesheet" href="../styles/comments.css">
+    <link rel="stylesheet" href="../styles/like.css">
+    <link rel="stylesheet" href="../styles/selectable.css">
+
+    <script src="../scripts/like.js"></script>
+
+</head>
+<body style="height: 100%; display: flex; flex-direction: column">
+
+<!--#include virtual="header.html"-->
+
+<main style="flex: 1 0 auto; margin-top: 50px; background-color: #f0f0f0">
+
+    <div id="emEquivalent"
+         style="height:1em;width:0;outline:none;border:none;padding:none;margin:none;box-sizing:content-box;"></div>
+
+    <section class="publication-view">
+
+        <article class="publication">
+
+            <div class="publisher">
+                <img color="orange" class="animal-div" width="129" height="129" src="../resources/animal3.png">
+                <a class="publisher-author">Умник</a>
+
+                <time class="publisher-time">Вчера в 18:00</time>
+
+            </div>
+            <h2 class="normal-text" style="margin-bottom: 5px; margin-top: 0.5em">Мобильные операционные системы</h2>
+            <div class="tags">
+                <a class="tag">История,&#160</a>
+                <a class="tag">Операционные системы</a>
+
+            </div>
+
+
+            <section style="padding-top: 20px;">
+                Мобильная операционная система (мобильная ОС) — операционная система для смартфонов, планшетов, КПК или
+                других мобильных устройств. Хотя ноутбуки и можно отнести к мобильным устройствам, однако операционные
+                системы, обычно используемые на них, мобильными не считаются, так как изначально разрабатывались для
+                крупных стационарных настольных компьютеров, которые традиционно не нуждались в специальных «мобильных»
+                функциях. Это различие размыто в некоторых новых операционных системах, представляющих гибрид того и
+                другого.
+
+                Мобильные операционные системы сочетают в себе функциональность Операционных Систем для ПК с функциями
+                для мобильных и карманных устройств: сенсорный экран, сотовая связь, Bluetooth, Wi-Fi, GPS-навигация,
+                камера, видеокамера, распознавание речи, диктофон, музыкальный плеер, NFC и инфракрасное дистанционное
+                управление.
+
+                Портативные устройства мобильной связи (например, смартфоны) содержат две операционные системы. Основную
+                программную платформу взаимодействия с пользователем дополняет вторая, низкоуровневая проприетарная
+                операционная система реального времени, обслуживающая радиооборудование. Исследования показали, что
+                такие низкоуровневые операционные системы уязвимы перед вредоносными базовыми станциями, способными
+                получить контроль над мобильным устройством.
+
+                Современные операционные системы для мобильных устройств: Android, Kai OS, Lineage OS, Fire OS, Flyme
+                OS, iOS, Sailfish OS, Tizen, MIUI, Remix OS , Fuchsia Os, Аврора. Устаревшие, ныне не поддерживаемые
+                программные платформы: Windows 10 Mobile, Symbian, Windows Mobile, Palm OS, webOS, Maemo, MeeGo, LiMo,
+                BlackBerry OS, Firefox OS, Bada OS, Java OS, Яндекс.Кит
+            </section>
+
+            <section style="margin-top: 0; padding-top: 2em; background: white; margin-bottom: 20px">
+                <h2 class="page-text-big" style=" text-align: left; color: black">Подробнее:</h2>
+
+                <div class="flex-images">
+
+                    <div class="selectable-image">
+                        <img src="../resources/android.png" width="300px" height="300px">
+                        <div class="selectable-image-text">
+                            <div style="margin: 135px 20px;">
+                                <h2 style="padding: 0; margin: 0">Android</h2>
+                                <h4 style="padding: 0; margin: 10px 0px 20px 0px">История развития</h4>
+                                <a href="android.shtml" class="btn btn-primary">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="selectable-image">
+                        <img src="../resources/ios.png" width="300px" height="300px">
+                        <div class="selectable-image-text">
+                            <div style="margin: 135px 20px;">
+                                <h2 style="padding: 0; margin: 0">IOS</h2>
+                                <h4 style="padding: 0; margin: 10px 0px 20px 0px">История развития</h4>
+                                <a href="ios.shtml" class="btn btn-primary">Подробнее</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+
+
+            <article style="margin-top: 20px; background: white">
+                <a style="color: black">Соцсети автора:</a>
+
+
+                <div style="margin-top: 5px" class="flex-images">
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/facebook.png">
+                        </div>
+                    </div>
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/youtube.png">
+                        </div>
+                    </div>
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/telegram.png">
+                        </div>
+                    </div>
+
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/icq.png">
+                        </div>
+                    </div>
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/inst.png">
+                        </div>
+                    </div>
+
+                </div>
+
+            </article>
+
+            <div id="like1" onclick="clickLike1(document.getElementById('like1'))" class="publication-like">
+                <div class="like-img"><img width="30px" height="30px" src="../resources/like.svg"></div>
+                <h4 class="like-counter">2</h4>
+            </div>
+
+        </article>
+
+    </section>
+
+    <section class="comments">
+        <a style="font-weight: 500;">Комментарии</a>
+        <button class="comment-add">
+            <img height="38" width="38" src="../resources/plus.svg"/>
+        </button>
+
+
+        <article style="margin-top: 2em" class="comment">
+
+            <div class="publisher">
+                <img class="animal-div" width="129" height="129" src="../resources/animal.png">
+                <a class="publisher-author">Хейтер</a>
+
+                <time class="publisher-time">Сегодня в 12:00</time>
+            </div>
+            <h2 class="comment-text normal-text" style="margin-bottom: 5px">Очень плохо</h2>
+
+        </article>
+
+        <article style="margin-top: 2em" class="comment">
+
+            <div class="publisher">
+                <img color="orange" class="animal-div" width="129" height="129" src="../resources/animal1.png">
+                <a class="publisher-author">Бот</a>
+
+                <time class="publisher-time">Сегодня в 13:00</time>
+            </div>
+            <h2 class="comment-text normal-text" style="margin-bottom: 5px">Очень хорошо</h2>
+
+        </article>
+
+        <article style="margin-top: 2em" class="comment">
+
+            <div class="publisher">
+                <img color="red" class="animal-div" width="129" height="129" src="../resources/animal2.png">
+                <a class="publisher-author">Реальный человек</a>
+
+                <time class="publisher-time">Вчера в 8:00</time>
+            </div>
+            <h2 class="comment-text normal-text" style="margin-bottom: 5px">Хорошая статья</h2>
+
+        </article>
+
+
+    </section>
+
+
+</main>
+
+<script src="../scripts/add-popular-articles.js"></script>
+<script src="../scripts/comments.js"></script>
+
+
+<div style="  flex: 0 0 auto;">
+    <!--#include virtual="footer.html"-->
+</div>
+
+</body>
+</html>

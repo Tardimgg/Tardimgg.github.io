@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Уникальная страница</title>
+    <link rel="icon" type="image/png" href="./goose.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/header-style.css">
+    <link rel="stylesheet" href="../styles/footer-style.css">
+    <link rel="stylesheet" href="../styles/home-page-style.css">
+    <link rel="stylesheet" href="../styles/card-style.css">
+    <link rel="stylesheet" href="../styles/publication.css">
+    <link rel="stylesheet" href="../styles/social-links.css">
+    <link rel="stylesheet" href="../styles/comments.css">
+
+</head>
+<body style="height: 100%; display: flex; flex-direction: column">
+
+<!--#include virtual="header.html"-->
+
+<main style="flex: 1 0 auto; margin-top: 50px; background-color: #f0f0f0">
+
+    <div id="emEquivalent" style="height:1em;width:0;outline:none;border:none;padding:none;margin:none;box-sizing:content-box;"></div>
+
+    <section class="publication-view">
+
+        <article class="publication">
+            <a class="cover-link" href="history.shtml"></a>
+
+            <div class="publisher">
+                <img class="animal-div" width="129" height="129" src="../resources/animal.png">
+                <a class="publisher-author">Author</a>
+
+                <time class="publisher-time">Сегодня в 12:00</time>
+
+            </div>
+            <h2 class="normal-text" style="margin-bottom: 5px; margin-top: 0.5em">История развития операционных систем</h2>
+            <div class="tags">
+                <a class="tag">История,&#160</a>
+                <a class="tag">Операционные системы</a>
+
+            </div>
+
+
+            <section style="padding-top: 20px;">
+                <h5>Вступление</h5>
+                Компьютерные технологии в последнее время сделали значительный скачок вперед, и скоро невозможно будет
+                представить наши жизни без помощи компьютера. Но без операционной системы компьютер — лишь набор
+                микросхем.
+                Именно на базе операционной системы работают все программы, которые мы используем, именно от ОС в первую
+                очередь будет зависеть скорость и производительность нашего труда на компьютере...
+            </section>
+
+        </article>
+
+    </section>
+
+    <section class="publication-view">
+
+        <article class="publication">
+            <a class="cover-link" href="mobile-os.shtml"></a>
+
+            <div class="publisher">
+                <img color="orange" class="animal-div" width="129" height="129" src="../resources/animal3.png">
+                <a class="publisher-author">Умник</a>
+
+                <time class="publisher-time">Вчера в 18:00</time>
+
+            </div>
+            <h2 class="normal-text" style="margin-bottom: 5px; margin-top: 0.5em">Мобильные операционные системы</h2>
+            <div class="tags">
+                <a class="tag">История,&#160</a>
+                <a class="tag">Операционные системы</a>
+
+            </div>
+
+
+            <section style="padding-top: 20px;">
+                Мобильная операционная система (мобильная ОС) — операционная система для смартфонов, планшетов, КПК или
+                других мобильных устройств. Хотя ноутбуки и можно отнести к мобильным устройствам, однако операционные
+                системы, обычно используемые на них, мобильными не считаются, так как...
+            </section>
+
+        </article>
+
+    </section>
+
+
+    <section class="publication-view">
+
+        <article class="publication">
+            <a class="cover-link" href="android.shtml"></a>
+
+            <div class="publisher">
+                <img class="animal-div" width="129" height="129" src="../resources/animal3.png">
+                <a class="publisher-author">Знаток</a>
+
+                <time class="publisher-time">Вчера в 06:00</time>
+
+            </div>
+            <h2 class="normal-text" style="margin-bottom: 5px; margin-top: 0.5em">Android</h2>
+            <div class="tags">
+                <a class="tag">История,&#160</a>
+                <a class="tag">Операционные системы,&#160</a>
+                <a class="tag">Android</a>
+
+            </div>
+
+
+            <section style="padding-top: 20px;">
+                Android — это операционная система с открытым исходным кодом, созданная для мобильных устройств на основе модифицированного ядра Linux. Эта ОС разработана консорциумом Open Handset Alliance, состоящим из крупных технологических компаний при организующей роли Google. Исходный код ОС представлен как часть проекта Android Open Source Project...
+            </section>
+
+        </article>
+
+    </section>
+
+
+    <section class="publication-view">
+
+        <article class="publication">
+            <a class="cover-link" href="bsd.shtml"></a>
+
+            <div class="publisher">
+                <img color="red" class="animal-div" width="129" height="129" src="../resources/animal1.png">
+                <a class="publisher-author">Прилежный ученик</a>
+
+                <time class="publisher-time">Вчера в 18:00</time>
+
+            </div>
+            <h2 class="normal-text" style="margin-bottom: 5px; margin-top: 0.5em">BSD</h2>
+            <div class="tags">
+                <a class="tag">История,&#160</a>
+                <a class="tag">Операционные системы,&#160</a>
+                <a class="tag">BSD</a>
+
+            </div>
+
+
+            <section style="padding-top: 20px;">
+                <h5>История</h5><br>
+
+                На настоящий момент существует четыре
+                основных варианта BSD. Три из них бесплатны (FreeBSD,
+                OpenBSD и NetBSD), четвертая (Mac OS X) продается
+                исключительно за деньги, да и признать в ней
+                BSD довольно затруднительно. Посмотрим как...
+            </section>
+
+        </article>
+
+    </section>
+
+
+    <section class="publication-view">
+
+        <article class="publication">
+            <a class="cover-link" href="ios.shtml"></a>
+
+            <div class="publisher">
+                <img color="blue" class="animal-div" width="129" height="129" src="../resources/animal2.png">
+                <a class="publisher-author">Эксперт по всем вопросам</a>
+
+                <time class="publisher-time">Вчера в 18:00</time>
+
+            </div>
+            <h2 class="normal-text" style="margin-bottom: 5px; margin-top: 0.5em">IOS</h2>
+            <div class="tags">
+                <a class="tag">История,&#160</a>
+                <a class="tag">Операционные системы,&#160</a>
+                <a class="tag">IOS</a>
+
+            </div>
+
+
+            <section style="padding-top: 20px;">
+                IOS — операционная система, разработанная компанией Apple для своих портативных устройств. Впервые она появилась на смартфонах iPhone и плеерах iPod в 2007 году, а с 2010 года стала устанавливаться на планшетах iPad...
+            </section>
+
+        </article>
+
+    </section>
+
+    <section class="publication-view">
+
+        <article class="publication">
+            <a class="cover-link" href="linux.shtml"></a>
+
+            <div class="publisher">
+                <img color="orange" class="animal-div" width="129" height="129" src="../resources/animal.png">
+                <a class="publisher-author">Знакок 10 лвл</a>
+
+                <time class="publisher-time">Вчера в 18:00</time>
+
+            </div>
+            <h2 class="normal-text" style="margin-bottom: 5px; margin-top: 0.5em">Linux</h2>
+            <div class="tags">
+                <a class="tag">История,&#160</a>
+                <a class="tag">Операционные системы,&#160</a>
+                <a class="tag">Linux</Linux></a>
+
+            </div>
+
+
+            <section style="padding-top: 20px;">
+                <h5>Введение</h5><br>
+                Linux — это семейство операционных систем (ОС), работающих на основе одноименного ядра. Нет одной операционной системы Linux, как, например, Windows или MacOS. Есть множество дистрибутивов...
+            </section>
+
+        </article>
+
+    </section>
+
+    <section class="publication-view">
+
+        <article class="publication">
+            <a class="cover-link" href="macos.shtml"></a>
+
+            <div class="publisher">
+                <img color="blue" class="animal-div" width="129" height="129" src="../resources/animal.png">
+                <a class="publisher-author">Местный эксперт</a>
+
+                <time class="publisher-time">Вчера в 10:00</time>
+
+            </div>
+            <h2 class="normal-text" style="margin-bottom: 5px; margin-top: 0.5em">MacOS</h2>
+            <div class="tags">
+                <a class="tag">История,&#160</a>
+                <a class="tag">Операционные системы,&#160</a>
+                <a class="tag">MacOS</a>
+
+            </div>
+
+
+            <section style="padding-top: 20px;">
+                <h5>Краткая история macOS</h5><br>
+                История macOS, как и в целом история Apple, увлекательна и полна захватывающих перипетий. Здесь я перескажу ее в очень сокращенном и упрощенном виде...
+            </section>
+
+        </article>
+
+    </section>
+
+
+    <section class="publication-view">
+
+        <article class="publication">
+            <a class="cover-link" href="os-publication.shtml"></a>
+
+            <div class="publisher">
+                <img class="animal-div" width="129" height="129" src="../resources/animal2.png">
+                <a class="publisher-author">Высший разум на ответах майл ру</a>
+
+                <time class="publisher-time">Позавчера в 22:00</time>
+
+            </div>
+            <h2 class="normal-text" style="margin-bottom: 5px; margin-top: 0.5em">Комьютерные операционные системы</h2>
+            <div class="tags">
+                <a class="tag">История,&#160</a>
+                <a class="tag">Операционные системы</a>
+
+            </div>
+
+
+            <section style="padding-top: 20px;">
+                <h5>Что такое операционная система?</h5>
+
+                Практически каждый человек, начинающий знакомиться с устройством компьютера-задаёт себе этот вопрос. Другие же, постоянно слышат это слово, но почему-то не задумываются о его значении. В нашем мире, есть определенный набор информации, которую должен знать каждый...
+            </section>
+
+        </article>
+
+    </section>
+
+
+    <section class="publication-view">
+
+        <article class="publication">
+            <a class="cover-link" href="windows.shtml"></a>
+
+            <div class="publisher">
+                <img color="red" class="animal-div" width="129" height="129" src="../resources/animal.png">
+                <a class="publisher-author">Знающий</a>
+
+                <time class="publisher-time">Вчера в 01:00</time>
+
+            </div>
+            <h2 class="normal-text" style="margin-bottom: 5px; margin-top: 0.5em">Windows</h2>
+            <div class="tags">
+                <a class="tag">История,&#160</a>
+                <a class="tag">Операционные системы,&#160</a>
+                <a class="tag">Windows</a>
+
+            </div>
+
+
+            <section style="padding-top: 20px;">
+                <h5>История Windows</h5><br>
+                В начале 80 годов прошлого века компания IBM работала над персональным компьютером на базе процессора Intel 8088. С середины 70 годов компания Microsoft была основным поставщиком Basic для восьмибитных микрокомпьютеров. Когда IBM обратилась к Microsoft для лицензирования Basic для...
+            </section>
+
+        </article>
+
+    </section>
+
+</main>
+
+<div style="  flex: 0 0 auto;">
+    <!--#include virtual="footer.html"-->
+</div>
+
+</body>
+</html>
+
+
+

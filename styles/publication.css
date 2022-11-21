@@ -1,0 +1,205 @@
+.normal-text {
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.publication {
+    /*width: 100vw;*/
+    /*min-width: 80vw;*/
+    height: min-content;
+    position: relative;
+    min-width: 50vw;
+    max-width: 60vw;
+    padding: 20px;
+    /*margin-left: 35px;*/
+    /*margin-right: 35px;*/
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+
+    background-color: white;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin: auto auto 10px;*/
+}
+
+.cover-link {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 20;
+}
+
+
+
+@media  not (max-width: 65em) {
+    .publication {
+        max-width: 60vw;
+    }
+
+
+
+    .publication-view .popular-articles {
+        display: block;
+    }
+
+}
+
+
+@media (max-width: 65em) {
+    .publication {
+        max-width: 80vw;
+    }
+
+
+    .publication-view .popular-articles {
+        display: block;
+    }
+
+}
+
+
+
+.publication .tags {
+    display: flex;
+    align-items: center;
+}
+
+.publisher {
+    display: flex;
+    align-items: center;
+}
+
+.publication .tags .tag {
+    display: inline;
+    color: #555555;
+    font-size: 0.8em;
+}
+
+.publisher .publisher-time {
+    margin-left: 10px;
+    display: inline;
+    color: #888888;
+    font-size: 0.8em;
+}
+
+.publisher .publisher-author {
+    display: inline;
+    font-size: 0.8em;
+}
+
+.publisher .animal-div {
+    margin-right: 10px;
+    display: inline-block;
+
+    background-color: indianred;
+    height: 25px;
+    width: auto;
+}
+
+.animal-div[color="red"] {
+    background-color: red;
+}
+
+.animal-div[color="orange"] {
+    background-color: orange;
+}
+
+.animal-div[color="blue"] {
+    background-color: blue;
+}
+
+.publication-view {
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+    margin: auto;
+    /*align-items: flex-start;*/
+}
+
+.publication-view .popular-articles {
+    /*position: fixed;*/
+    /*position: sticky;*/
+
+    /*display: none;*/
+    /*visibility: hidden;*/
+    margin-top: 30px;
+    margin-right: auto;
+    height: 38em;
+    width: 20em;
+    position: relative;
+    background-color: white;
+}
+
+.popular-articles .popular-articles-title {
+    color: #666666;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+
+    font-weight: 500;
+}
+
+
+.popular-articles .popular-article-list {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    top: 60px;
+}
+
+.popular-articles .popular-article {
+    /*background-color: orange;*/
+    /*width: 100%;*/
+    min-height: 5em;
+    /*height: 100px;*/
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.popular-articles .popular-article-text {
+    /*font-size: 1em;*/
+    /*position: absolute;*/
+    margin-top: 20px;
+    /*width: 100%;*/
+    /*left: 0;*/
+    /*right: 0;*/
+    /*top: 20px;*/
+    color: black;
+    text-decoration: none;
+}
+
+.popular-articles .popular-article-text:hover {
+    color: deepskyblue;
+    transition: all 0.3s;
+}
+
+
+
+.popular-articles .popular-article::before {
+    content: '';
+    background-color: #aaaaaa;
+
+    height: 2px;
+    width: 260px;
+    position: absolute;
+    top: 0;
+}
+
+.popular-article .popular-article-additional-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+
+
+    /*align-items: flex-start;*/
+}
+
+.popular-article .popular-article-additional-info .popular-article-additional-info-img {
+    height: 20px;
+    width: 20px;
+    display: block;
+    margin-right: 5px;
+    margin-top: -2px;
+}

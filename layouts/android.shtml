@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Уникальная страница</title>
+    <link rel="icon" type="image/png" href="./goose.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../styles/header-style.css">
+    <link rel="stylesheet" href="../styles/footer-style.css">
+    <link rel="stylesheet" href="../styles/home-page-style.css">
+    <link rel="stylesheet" href="../styles/card-style.css">
+    <link rel="stylesheet" href="../styles/publication.css">
+    <link rel="stylesheet" href="../styles/social-links.css">
+    <link rel="stylesheet" href="../styles/comments.css">
+    <link rel="stylesheet" href="../styles/like.css">
+
+    <script src="../scripts/like.js"></script>
+
+</head>
+<body style="height: 100%; display: flex; flex-direction: column">
+
+<!--#include virtual="header.html"-->
+
+<main style="flex: 1 0 auto; margin-top: 50px; background-color: #f0f0f0">
+
+    <div id="emEquivalent" style="height:1em;width:0;outline:none;border:none;padding:none;margin:none;box-sizing:content-box;"></div>
+
+    <section class="publication-view">
+
+        <article class="publication">
+
+            <div class="publisher">
+                <img class="animal-div" width="129" height="129" src="../resources/animal3.png">
+                <a class="publisher-author">Знаток</a>
+
+                <time class="publisher-time">Вчера в 06:00</time>
+
+            </div>
+            <h2 class="normal-text" style="margin-bottom: 5px; margin-top: 0.5em">Android</h2>
+            <div class="tags">
+                <a class="tag">История,&#160</a>
+                <a class="tag">Операционные системы,&#160</a>
+                <a class="tag">Android</a>
+
+            </div>
+
+
+            <section style="padding-top: 20px;">
+                Android — это операционная система с открытым исходным кодом, созданная для мобильных устройств на основе модифицированного ядра Linux. Эта ОС разработана консорциумом Open Handset Alliance, состоящим из крупных технологических компаний при организующей роли Google. Исходный код ОС представлен как часть проекта Android Open Source Project (AOSP) с лицензией Apache. Выпущенный на рынок в 2007 году Android вскоре стал самой продаваемой операционной системой в истории, благодаря своей открытой модели разработки и удобному интерфейсу. Последняя версия Android 11 вышла в 2020 году.
+                <br><br><h5>История развития</h5><br>
+
+                Проект Android появился в 2003 году с целью разработки интеллектуальных мобильных устройств. Начинался он с разработки ОС для цифровых фотокамер, но вскоре акцент сместился на мобильные телефоны из-за их большой распространенности на рынке. В 2005 году проект приобрел Google и в качестве основы для этой ОС было выбрано ядро Linux за счет его гибкости и возможности обновления.
+
+                <br><br>С целью разработки платформы с открытым исходным кодом для мобильных устройств в 2007 году Google сформировала Open Handset Alliance с несколькими производителями оборудования и операторами беспроводной связи. В то время каждый производитель выпускал мобильные телефоны на базе собственной платформы, с ограниченными возможностями для сторонних приложений. Альянс заявил, что открытая платформа обеспечит тесное сотрудничество между производителями и разработчиками, чтобы ускорить производство недорогих инновационных продуктов и приложений.
+
+                <br><br>Платформа Android была представлена в 2007 году и вышла на рынок на следующий год. Поначалу ей мешал ограниченный набор функций и небольшая база пользователей по сравнению с конкурентами Symbian и Windows. Однако возможность обновления стала самым большим преимуществом этой ОС, поскольку каждое обновление давало новые функции и улучшенную производительность. Из-за «сладости, которую они приносят в нашу жизнь», первые версии были названы в честь десертов, в алфавитном порядке, например Cupcake, Jellybean и KitKat. Однако вскоре у Google закончились десерты, и с 2019 года новые версии ОС получают номера, начинающиеся с Android 10. Лицензия с открытым исходным кодом также помогла увеличить популярность этой ОС среди производителей мобильных устройств, поскольку они могут теперь модифицировать ОС под свои требования, не влияя при этом на разработку приложений.
+
+                <br><br>Но самая главная особенность в том, что Android — это больше, чем просто операционная система. Он во многом уравнял мобильные устройства с персональными компьютерами, позволив разработчикам писать приложения независимо от аппаратной платформы устройства. Это привело к созданию глобальной платформы для приложений и укрепило позиции Android, как передовой мобильной платформы, и в 2011 году он стал самой продаваемой операционной системой для смартфонов и для планшетов в 2013 году. Сегодня на Android работает множество электронных устройств, включая смарт-камеры, часы, медиаплееры и многое другое.
+
+                <br><br><h5>Архитектура</h5><br>
+
+                Основой ОС Android является модифицированная версия ядра Linux LTS, которая непосредственно взаимодействует с оборудованием. Драйверы, необходимые для работы устройства, реализуются производителями оборудования и добавляются в ядро. Это позволяет производителям оборудования разрабатывать драйверы для хорошо известного ядра, а разработчикам ОС игнорировать разнообразие оборудования. Android 11 поддерживает версии ядра 4.14, 4.19 и 5.4.
+
+                <br><br>Особенности оборудования дополнительно маскируются также реализуемыми производителями уровнями аппаратной абстракции, которые предоставляют стандартные интерфейсы для высокоуровневых структур, чтобы обеспечить доступ к аппаратному обеспечению устройства, не заботясь при этом о реализации драйверов.
+
+                <br><br>Android Runtime (ART) — это виртуальная машина, которая выполняет код приложения, содержащийся в файлах Dalvik Executable (DEX). Она управляет компиляцией кода, отладкой и очисткой памяти. Каждое приложение работает со своим собственным экземпляром ART, то есть в своей собственной виртуальной машине, чтобы обеспечить изоляцию кода. ART заменил Dalvik в качестве виртуальной машины Java для Android в 2013 году, поскольку его компиляция Ahead-of-Time обеспечила лучшую производительность по сравнению с компиляцией Just-in-Time у последней.
+
+                <br><br>Собственные библиотеки C/C ++ являются важной частью операционной системы, поскольку большинство основных компонентов Android написаны на собственном коде. Инфраструктура Java API — это шлюз в ОС для всех пользовательских приложений. Он предоставляет множество сервисов для приложений в виде вызовов Java API, включая менеджеры действий, ресурсов и уведомлений, поставщиков контента и систему просмотра. Именно поэтому приложения для Android в основном разрабатываются на Java, хотя собственные библиотеки обеспечивают некоторую поддержку C/C++. Совсем недавно также поддерживался и Kotlin, он даже предпочитался Google для разработки приложений Android. Код компилируется Android Software Development Kit (SDK) и архивируется в виде пакета Android (APK).
+            </section>
+
+
+            <article style="margin-top: 20px; background: white">
+                <a style="color: black">Соцсети автора:</a>
+
+
+                <div style="margin-top: 5px" class="flex-images">
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/facebook.png">
+                        </div>
+                    </div>
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/youtube.png">
+                        </div>
+                    </div>
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/telegram.png">
+                        </div>
+                    </div>
+
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/icq.png">
+                        </div>
+                    </div>
+
+                    <div class="small-btn">
+                        <div class="small-btn-img">
+                            <img width="40px" height="40px" src="../resources/inst.png">
+                        </div>
+                    </div>
+
+                </div>
+
+            </article>
+
+            <div id="like1" onclick="clickLike1(document.getElementById('like1'))" class="publication-like">
+                <div class="like-img"><img width="30px" height="30px" src="../resources/like.svg"></div>
+                <h4 class="like-counter">2</h4>
+            </div>
+
+        </article>
+
+    </section>
+
+    <section class="comments">
+        <a style="font-weight: 500;">Комментарии</a>
+        <button class="comment-add">
+            <img height="38" width="38" src="../resources/plus.svg"/>
+        </button>
+
+
+        <article style="margin-top: 2em" class="comment">
+
+            <div class="publisher">
+                <img color="red" class="animal-div" width="129" height="129" src="../resources/animal1.png">
+                <a class="publisher-author">Гений</a>
+
+                <time class="publisher-time">Сегодня в 20:00</time>
+            </div>
+            <h2 class="comment-text normal-text" style="margin-bottom: 5px">А как накатить ios на андройд?</h2>
+
+        </article>
+
+        <article style="margin-top: 2em" class="comment">
+
+            <div class="publisher">
+                <img class="animal-div" width="129" height="129" src="../resources/animal3.png">
+                <a class="publisher-author">Новичок</a>
+
+                <time class="publisher-time">Сегодня в 21:00</time>
+            </div>
+            <h2 class="comment-text normal-text" style="margin-bottom: 5px">Какой айфон посоветуете?</h2>
+
+        </article>
+
+        <article style="margin-top: 2em" class="comment">
+
+            <div class="publisher">
+                <img color="orange" class="animal-div" width="129" height="129" src="../resources/animal2.png">
+                <a class="publisher-author">Не приколист</a>
+
+                <time class="publisher-time">Вчера в 12:00</time>
+            </div>
+            <h2 class="comment-text normal-text" style="margin-bottom: 5px">Ну неплохо</h2>
+
+        </article>
+
+
+    </section>
+
+
+</main>
+
+<script src="../scripts/add-popular-articles.js"></script>
+<script src="../scripts/comments.js"></script>
+
+
+<div style="  flex: 0 0 auto;">
+    <!--#include virtual="footer.html"-->
+</div>
+
+</body>
+</html>
