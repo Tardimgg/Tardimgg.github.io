@@ -75,6 +75,8 @@
     font-size: 1em;
     /*font-weight: 400;*/
     margin-left: 0.5em;
+    word-break: break-all;
+
 }
 
 
