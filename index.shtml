@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Уникальная страница</title>
-    <link rel="icon" type="image/png" href="../resources/favicon.png">
+    <link rel="icon" type="image/png" href="resources/favicon.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="../styles/header-style.css">
-    <link rel="stylesheet" href="../styles/footer-style.css">
-    <link rel="stylesheet" href="../styles/home-page-style.css">
-    <link rel="stylesheet" href="../styles/card-style.css">
-    <link rel="stylesheet" href="../styles/social-links.css">
+    <link rel="stylesheet" href="styles/header-style.css">
+    <link rel="stylesheet" href="styles/footer-style.css">
+    <link rel="stylesheet" href="styles/home-page-style.css">
+    <link rel="stylesheet" href="styles/card-style.css">
+    <link rel="stylesheet" href="styles/social-links.css">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
@@ -29,38 +29,38 @@
     <section style="padding-top: 20px;" class="x_scrollable">
 
         <div class="icon">
-            <a class="cover-link" href="windows.shtml"></a>
-            <img class="icon-image" src="../resources/win.png">
+            <a class="cover-link" href="docs/windows.shtml"></a>
+            <img class="icon-image" src="resources/win.png">
             <h4 class="icon-text">Windows</h4>
         </div>
 
         <div class="icon">
-            <a class="cover-link" href="android.shtml"></a>
-            <img class="icon-image" src="../resources/android.png">
+            <a class="cover-link" href="docs/android.shtml"></a>
+            <img class="icon-image" src="resources/android.png">
             <h4 class="icon-text">Android</h4>
         </div>
 
         <div class="icon">
-            <a class="cover-link" href="ios.shtml"></a>
-            <img class="icon-image" src="../resources/ios.png">
+            <a class="cover-link" href="docs/ios.shtml"></a>
+            <img class="icon-image" src="resources/ios.png">
             <h4 class="icon-text">IOS</h4>
         </div>
 
         <div class="icon">
-            <a class="cover-link" href="bsd.shtml"></a>
-            <img class="icon-image" src="../resources/daemon-phk.png">
+            <a class="cover-link" href="docs/bsd.shtml"></a>
+            <img class="icon-image" src="resources/daemon-phk.png">
             <h4 class="icon-text">BSD</h4>
         </div>
 
         <div class="icon">
-            <a class="cover-link" href="linux.shtml"></a>
-            <img class="icon-image" src="../resources/Tux.png">
+            <a class="cover-link" href="docs/linux.shtml"></a>
+            <img class="icon-image" src="resources/Tux.png">
             <h4 class="icon-text">Linux</h4>
         </div>
 
         <div class="icon">
-            <a class="cover-link" href="macos.shtml"></a>
-            <img class="icon-image" src="../resources/macos1.png">
+            <a class="cover-link" href="docs/macos.shtml"></a>
+            <img class="icon-image" src="resources/macos1.png">
             <h4 class="icon-text">MacOS</h4>
         </div>
 
@@ -83,7 +83,7 @@
     <section style="min-height: 500px; padding-top: 100px; margin-top: 0; background: white">
 
 
-        <img class="left-page-img" src="../resources/acer.png">
+        <img class="left-page-img" src="resources/acer.png">
         <h2 class="page-text" style="color: black">Операционная система — комплекс взаимосвязанных программ,
             предназначенных для управления ресурсами компьютера и организации взаимодействия с пользователем.</h2>
     </section>
@@ -91,7 +91,7 @@
     <section style="min-height: 500px; margin-bottom: 0; padding-top: 5px; margin-top: 0; background: white">
 
         <h2 class="page-text-big" style="color: black">Основные функции:</h2>
-        <img class="right-page-img" src="../resources/func.png">
+        <img class="right-page-img" src="resources/func.png">
 
         <ul class="home-ul">
             <li>Исполнение запросов программ (ввод и вывод данных, запуск и остановка других программ, выделение и
@@ -118,8 +118,8 @@
         <div class="flex-images">
 
             <div class="card" style="width: 18rem; border-width: 2px; box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);">
-                <a class="cover-link" href="mobile-os.shtml"></a>
-                <img src="../resources/andoidVsIos.gif" class="card-img-top" alt="...">
+                <a class="cover-link" href="docs/mobile-os.shtml"></a>
+                <img src="resources/andoidVsIos.gif" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Мобильные системы</h5>
                     <p class="card-text">Операционные системы для смартфонов, планшетов, КПК или других мобильных устройств.</p>
@@ -127,8 +127,8 @@
             </div>
 
             <div class="card" style="width: 18rem; border-width: 2px; box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);">
-                <a class="cover-link" href="history.shtml"></a>
-                <img src="../resources/historyOS.gif" class="card-img-top" alt="...">
+                <a class="cover-link" href="docs/history.shtml"></a>
+                <img src="resources/historyOS.gif" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">История развития</h5>
                     <p class="card-text">Историческая справка о возникновении и развитии операционных систем.</p>
@@ -136,8 +136,8 @@
             </div>
 
             <div class="card" style="width: 18rem; border-width: 2px; box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);">
-                <a class="cover-link" href="os-publication.shtml"></a>
-                <img src="../resources/fighting.jpg" class="card-img-top" alt="...">
+                <a class="cover-link" href="docs/os-publication.shtml"></a>
+                <img src="resources/fighting.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                     <h5 class="card-title">Компьютерные системы</h5>
                     <p class="card-text">Операционные системы общего назначения.</p>
