@@ -43,12 +43,12 @@ function createPopularArticles() {
     let container = document.createElement("div");
     container.setAttribute("class", "popular-article-list")
 
-    container.appendChild(createArticleLogo("История развития операционных систем", "1k", "../layouts/history.shtml"))
-    container.appendChild(createArticleLogo("Мобильные операционные системы", "500", "../layouts/mobile-os.shtml"))
-    container.appendChild(createArticleLogo("Android", "10k", "../layouts/android.shtml"))
-    container.appendChild(createArticleLogo("BSD", "100k", "../layouts/bsd.shtml"))
-    container.appendChild(createArticleLogo("Windows", "5k", "../layouts/windows.shtml"))
-    container.appendChild(createArticleLogo("Linux", "3k", "../layouts/linux.shtml"))
+    container.appendChild(createArticleLogo("История развития операционных систем", "1k", "../layouts/history.html"))
+    container.appendChild(createArticleLogo("Мобильные операционные системы", "500", "../layouts/mobile-os.html"))
+    container.appendChild(createArticleLogo("Android", "10k", "../layouts/android.html"))
+    container.appendChild(createArticleLogo("BSD", "100k", "../layouts/bsd.html"))
+    container.appendChild(createArticleLogo("Windows", "5k", "../layouts/windows.html"))
+    container.appendChild(createArticleLogo("Linux", "3k", "../layouts/linux.html"))
 
     div.appendChild(container)
 
