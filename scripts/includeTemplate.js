@@ -67,5 +67,9 @@ let footerDiv = document.createElement("div");
 footerDiv.setAttribute("style", " flex: 0 0 auto;");
 footerDiv.innerHTML = footer;
 
-div.innerHTML = header + div.innerHTML;
+let headerDiv = document.createElement("div");
+headerDiv.innerHTML = header;
+
+// div.innerHTML = header + div.innerHTML;
+div.prepend(headerDiv)
 div.appendChild(footerDiv)
