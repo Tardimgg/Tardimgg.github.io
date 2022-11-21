@@ -60,7 +60,7 @@
 
     margin-top: 0.8em;
     font-size: 1em;
-    font-weight: 200;
+    /*font-weight: 200;*/
     margin-left: 0.5em;
     margin-bottom: 1em;
 }
@@ -73,7 +73,7 @@
     height: 5em;
     margin-top: 0.8em;
     font-size: 1em;
-    font-weight: 300;
+    font-weight: 400;
     margin-left: 0.5em;
 }
 
