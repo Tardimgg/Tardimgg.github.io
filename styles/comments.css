@@ -73,6 +73,7 @@
     height: 5em;
     margin-top: 0.8em;
     font-size: 1em;
+
     /*font-weight: 400;*/
     margin-left: 0.5em;
     word-break: break-all;
@@ -113,7 +114,10 @@
 .comment .comment-text {
     margin-top: 0.8em;
     font-size: 1em;
-    font-weight: 200;
+    /*font-weight: 200;*/
     margin-left: 0.5em;
+
+    font-weight: 400;
+    word-break: break-all;
 }
 
