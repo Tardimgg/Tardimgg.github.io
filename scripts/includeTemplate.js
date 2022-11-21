@@ -70,6 +70,5 @@ footerDiv.innerHTML = footer;
 let headerDiv = document.createElement("div");
 headerDiv.innerHTML = header;
 
-// div.innerHTML = header + div.innerHTML;
 div.prepend(headerDiv)
 div.appendChild(footerDiv)

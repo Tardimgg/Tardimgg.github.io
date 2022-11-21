@@ -90,7 +90,6 @@ function createCaptcha(btn) {
     div.appendChild(captcha_btn);
 
     return div;
-    // div.setAttribute("float", "right")
 
 }
 
